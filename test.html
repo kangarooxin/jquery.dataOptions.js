@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="jquery.dataOptions.js"></script>
+    <script>
+        $(function(){
+            console.dir($('#div1').dataOptions(['min', 'max']));
+            console.dir($('#div2').dataOptions(['min', 'max'], 'op'));
+        });
+    </script>
+</head>
+<body>
+    <div id="div1" data-min="1" data-max="2"></div>
+    <div id="div2" data-op-min="1" data-op-max="2"></div>
+</body>
+</html>
