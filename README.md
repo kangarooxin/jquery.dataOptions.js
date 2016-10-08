@@ -14,3 +14,11 @@ get element data options
 $('#div1').dataOptions(['min', 'max']);
 $('#div2').dataOptions(['min', 'max'], 'op');
 ```
+
+result:
+```json
+{
+  min: 1
+  max: 2
+}
+```
